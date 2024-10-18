@@ -14,7 +14,8 @@ public class Cancion {
         this.album = album;
         this.pista = pista;
     }
-    public void imprimir() {
+
+    public void imprimirCancion() {
         System.out.println("El nombre es: "+this.nombre);
         System.out.println("El género es: "+this.genero);
         System.out.println("El artista es: "+this.artista);
